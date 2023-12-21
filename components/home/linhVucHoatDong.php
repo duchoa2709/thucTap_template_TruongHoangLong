@@ -11,7 +11,7 @@
     width: 22rem;
     height: 30rem;
     background: url("./public/images/polygonTrai.png");
-    z-index: -1;
+    z-index: 1;
     background-repeat: no-repeat;
 }
 </style>
@@ -30,5 +30,3 @@
 </div>
 
 <!-- card carousel -->
-<?php 
-// include_once('slide.php');

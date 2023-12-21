@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <!-- Demo styles -->
     <style>
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-    }
-
-    .swiper {
+    .sw-news .swiper {
         position: relative;
         margin-left: auto;
         margin-right: auto;
         overflow: hidden;
     }
 
-    .swiper-slide {
+    .sw-news .swiper-slide {
         width: 100%;
         height: 455px;
         text-align: center;
@@ -46,17 +23,17 @@
         background-repeat: no-repeat;
     }
 
-    .swiper-slide img {
+    .sw-news .swiper-slide img {
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
     }
 
-    .swiper-button-prev:after {
+    .sw-news .swiper-button-prev:after {
         content: "";
         position: absolute;
-        top: 50%;
-        left: -260% !important;
+        top: 0%;
+        left: -400% !important;
         transform: translateY(-50%);
         width: 40px;
         height: 40px;
@@ -69,11 +46,11 @@
         background: #fff;
     }
 
-    .swiper-button-next::after {
+    .sw-news .swiper-button-next::after {
         content: "";
         position: absolute;
-        top: 50%;
-        left: 260% !important;
+        top: 0%;
+        left: 400% !important;
         transform: translateY(-50%);
         width: 40px;
         height: 40px;
@@ -86,16 +63,16 @@
         background: #fff;
     }
 
-    .swiper-button-next {
+    .sw-news .swiper-button-next {
         right: 20px;
     }
 
-    .swiper-button-prev {
+    .sw-news .swiper-button-prev {
         left: 20px;
     }
 
     /* Increase width for active slide */
-    .swiper-slide.swiper-slide-active {
+    .sw-news .swiper-slide.swiper-slide-active {
         width: 48% !important;
     }
 
@@ -104,8 +81,8 @@
         position: relative;
     }
 
-    .img-news {
-        background: linear-gradient(180deg, rgba(251, 251, 251, 0) 0%, rgba(251, 251, 251, 0) 55%, rgba(0, 0, 0, 1) 100%);
+    .sw-news .img-news {
+        background: linear-gradient(180deg, rgba(251, 251, 251, 0) 0%, rgba(251, 251, 251, 0) 40%, rgba(0, 0, 0, 1) 100%);
         z-index: 1;
         position: relative;
         bottom: 0;
@@ -123,7 +100,7 @@
         /* Align text to the left */
     }
 
-    .text-news {
+    .sw-news .text-news {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -184,8 +161,6 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>

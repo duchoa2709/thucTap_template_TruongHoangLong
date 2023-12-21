@@ -3,11 +3,11 @@
     --sub-cl: #9C1006;
 }
 
-.img_wrap {
+.sw-news .img_wrap {
     overflow: hidden;
 }
 
-.img_wrap img {
+.sw-news .img_wrap img {
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
     -ms-transition: 0.4s ease-in-out;
@@ -19,17 +19,17 @@
     object-fit: cover;
 }
 
-.recruit_item .img_wrap {
+.sw-news .recruit_item .img_wrap {
     -webkit-border-radius: 0.521rem;
     -moz-border-radius: 0.521rem;
     border-radius: 0.521rem;
 }
 
-.box_swiper {
+.sw-news .box_swiper {
     position: relative;
 }
 
-.box_swiper .swiper_arrow {
+.sw-news .box_swiper .swiper_arrow {
     position: absolute;
     top: 50%;
     display: flex;
@@ -38,26 +38,26 @@
     cursor: pointer;
 }
 
-.box_swiper .swiper_arrow.next {
+.sw-news .box_swiper .swiper_arrow.next {
     right: -1.25rem;
     transform: translate(100%, -50%);
 }
 
-.box_swiper .swiper_arrow.prev {
+.sw-news .box_swiper .swiper_arrow.prev {
     left: -1.25rem;
     transform: translate(-100%, -50%);
 }
 
-.swiper-button-disabled {
+.sw-news .swiper-button-disabled {
     opacity: 0.2;
 }
 
 @media only screen and (min-width: 1280px) {
-    .swiper_arrow.next:not(.swiper-button-disabled):hover svg {
+    .sw-news .swiper_arrow.next:not(.swiper-button-disabled):hover svg {
         transform: translateX(0.521rem);
     }
 
-    .swiper_arrow.prev:not(.swiper-button-disabled):hover svg {
+    .sw-news .swiper_arrow.prev:not(.swiper-button-disabled):hover svg {
         transform: translateX(-0.521rem);
     }
 

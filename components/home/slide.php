@@ -1,4 +1,3 @@
-
 <section>
     <div class="flex">
         <div class="w-2/12 flex items-center">
@@ -14,6 +13,7 @@
 
         <div id="sliderContainer" class="w-10/12 overflow-hidden">
             <ul id="slider" class="flex w-full">
+                
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md"
@@ -30,6 +30,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Frame18579.jpg" alt="">
@@ -45,6 +46,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Frame18579.png" alt="">
@@ -60,6 +62,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Rectangle269.png" alt="">
@@ -75,6 +78,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Rectangle269.png" alt="">
@@ -90,6 +94,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Rectangle269.png" alt="">
@@ -105,6 +110,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Rectangle269.png" alt="">
@@ -120,6 +126,7 @@
                         </p>
                     </div>
                 </li>
+
                 <li class="p-5">
                     <div class="border rounded-lg p-5 h-full">
                         <img class="h-50 w-full object-cover rounded-md" src="./public/images/Rectangle269.png" alt="">
@@ -150,4 +157,3 @@
         </div>
     </div>
 </section>
-
