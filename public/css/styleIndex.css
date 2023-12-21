@@ -45,8 +45,6 @@
     top: 50%;
     left: -10%;
     transform: translateY(-50%);
-    z-index: 9999;
-
 }
 
 .ourServieces .ourServieces-next{
@@ -54,8 +52,6 @@
     top: 50%;
     right: -10%;
     transform: translateY(-50%);
-    z-index: 9999;
-
 }
 
 
@@ -176,4 +172,24 @@ img {
 .sliderContainer-hover:hover p {
     color: white;
     border-color: #d6d6d6;
+}
+
+.active-list-project{
+    font-weight: bold;
+}
+
+.project-home{
+    position: relative;
+}
+
+.project-home::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bgProject.png");
+    z-index: -1;
+    background-repeat: no-repeat;
 }

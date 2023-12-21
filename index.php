@@ -1,66 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>header</title>
-    <link rel="stylesheet" href="./public/css/styleIndex.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
-</head>
-
-<body>
-    <!-- header navbar -->
-    <div class="flex items-center fixed w-full bg-white z-50">
-        <div class="container mx-auto px-40">
-            <div class="flex items-center justify-center">
-                <div class="mr-28">
-                    <!-- Hình ảnh logo -->
-                    <img src="./public/images/LogoHeader.jpg" alt="">
-                </div>
-                <div>
-                    <!-- Danh mục -->
-                    <ul class="flex">
-                        <li class="ml-12"><a href="" class="text-[#1c2c67] font-bold">TRANG CHỦ</a></li>
-                        <li class="ml-12"><a href="#aboutCompany" class=" hover:text-[#1c2c67]">GIỚI THIỆU</a></li>
-                        <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">DỰ ÁN</a></li>
-                        <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">TRUYỀN THÔNG</a></li>
-                        <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">CỔ ĐÔNG</a></li>
-                        <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">TUYỂN DỤNG</a></li>
-                        <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">LIÊN HỆ</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="bg-[#1b2c65]">
-            <div class="grid grid-cols-3 divide-x">
-                <button class="py-8 px-6">
-                    <img class="m-auto" src="./public/images/Search.svg" alt="">
-                </button>
-                <!-- Tìm Kiếm -->
-                <button class="py-8 px-6">
-                    <!-- Liên Hệ -->
-                    <img class="m-auto" src="./public/images/Phone.svg" alt="">
-                </button>
-                <button class="py-8 px-6">
-                    <!-- Ngôn ngữ -->
-                    <div class="flex text-white m-auto">
-                        <a href="#">EN</a>
-                        <div class="mx-2">|</div>
-                        <a href="#">VI</a>
-                    </div>
-                </button>
-            </div>
-        </div>
-    </div>
+    <!-- Header navbar -->
+    <?php include_once('components/header.php') ?>
     <!-- end header navbar -->
 
     <!-- banner -->
@@ -145,10 +85,11 @@
             <!-- end about Us -->
         </section>
     </section>
-    <div class="bg-no-repeat bg-bottom pb-96" style="background-image: url('./public/images/anhnennhadat.jpg')">
+    <!-- our services -->
+    <div class="bg-no-repeat bg-bottom pb-96 bg-cover"
+        style="background-image: url('./public/images/anhnennhadat.jpg')">
         <section class="container mx-auto px-40">
             <!-- end container -->
-            <!-- our services -->
             <?php include_once('components/home/linhVucHoatDong.php') ?>
             <section>
                 <div class="flex ourServieces">
@@ -323,8 +264,65 @@
             <!-- end our services -->
         </section>
     </div>
-    </section>
 
+    <!-- project -->
+    <div class="bg-no-repeat bg-bottom py-32 bg-cover" style="background-image: url('./public/images/bgProject.png')">
+        <section class="container mx-auto px-40">
+            <div class="flex items-center">
+                <div class="text-left w-1/2 text-white">
+                    <p class="mb-3">
+                        CÔNG TRÌNH ỨNG DỤNG
+                    </p>
+                    <p class="text-5xl">
+                        <span class="text-white font-bold">
+                            DỰ ÁN
+                        </span>
+                        NỔI BẬT
+                    </p>
+                </div>
+
+                <div class="w-1/2 project-home">
+                    <ul class="flex justify-end items-center text-white">
+                        <li class="mr-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" data-slot="icon" class="w-10 h-10">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                            </svg>
+                        </li>
+                        <li class="mr-8 font-bold active-list-project">
+                            TẤT CẢ
+                        </li>
+                        <li class="mr-8">
+                            CÔNG NGHIỆP
+                        </li>
+                        <li class="mr-8">
+                            DÂN DỤNG
+                        </li>
+                        <li class="mr-8">
+                            TỔNG THẦU
+                        </li>
+                        <button class="bg-[#CF4735] text-white px-3 py-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+
+                        </button>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- =============================================================== -->
+
+            <?php include_once('components/home/slideProject.php') ?>
+
+            <!-- =============================================================== -->
+
+        </section>
+
+    </div>
+    <?php include_once('components/home/news.php') ?>
     <script>
     // Tự động chuyển đổi slide sau mỗi 2 giây
     setInterval(function() {
