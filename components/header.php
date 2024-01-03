@@ -21,8 +21,33 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <style>
+    /* For Chrome, Safari and Opera */
+    body::-webkit-scrollbar {
+        width: 12px;
+        /* Chiều rộng của thanh cuộn */
+    }
+
+    body::-webkit-scrollbar-track {
+        background: #ff0000;
+        /* Màu nền của thanh cuộn */
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: #1b2c65;
+        /* Màu của thanh cuộn */
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+        background: #111c40;
+        /* Màu của thanh cuộn khi hover chuột */
+    }
+
+    /* For IE and Edge */
     body {
-        font-family: 'Montserrat', sans-serif;
+        scrollbar-width: thin;
+        /* Độ rộng của thanh cuộn */
+        scrollbar-color: #ff0000 #1b2c65;
+        /* Màu của thanh cuộn */
     }
     </style>
 </head>
@@ -30,7 +55,7 @@
 <body>
 
     <!-- header navbar -->
-    <div class="flex items-center fixed w-full bg-white z-50">
+    <div class="flex items-center sticky top-0 w-full bg-white z-50">
         <div class="container mx-auto px-40">
             <div class="flex items-center justify-center">
                 <div class="mr-28">

@@ -127,3 +127,5 @@
         </div>
     </section>
 </div>
+
+<script src="./public/js/jsIndex.js"></script>

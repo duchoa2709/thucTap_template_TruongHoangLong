@@ -17,7 +17,7 @@
 
 <section
     style="background-image: url('./public/images/partners.png'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-    <div class="container mx-auto px-40 py-10">
+    <div class="container mx-auto px-40 pt-10">
         <!-- dòng đầu tiên -->
         <div class="flex">
             <div class="w-3/5">
