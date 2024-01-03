@@ -37,10 +37,8 @@
                         Với định hướng trở thành công ty kỹ thuật xây dựng dẫn <br> đầu khu vực Đông Nam Á,
                     </p>
                     <p class="mb-9 text-xl">
-                        HLQ Land đang từng bước hiện thực hóa mục tiêu bằng cách xây <br> dựng công ty theo chuẩn
-                        mực
-                        Quốc
-                        tế.
+                        HLQ Land đang từng bước hiện thực hóa mục tiêu bằng cách xây <br> dựng công ty theo chuẩn mực
+                        Quốc tế.
                     </p>
                     <button class="bg-[#CF4735] text-white px-6 py-3">
                         <a href="" class="flex items-center gap-5 font-bold">Xem thêm
@@ -99,10 +97,8 @@
                                     </div>
                                     <p class="mt-2 text-gray-500 mx-8 ">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magni
-                                        aliquid
-                                        tenetur explicabo. In, dolorum, ex quia consequuntur culpa odit officiis non
-                                        maiores
-                                        inventore veniam consequatur unde animi, voluptatem mollitia.
+                                        aliquid tenetur explicabo. In, dolorum, ex quia consequuntur culpa odit officiis
+                                        non maiores inventore veniam consequatur unde animi, voluptatem mollitia.
                                     </p>
                                 </div>
                             </li>
@@ -116,10 +112,8 @@
                                     </div>
                                     <p class="mt-2 text-gray-500 mx-8 ">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magni
-                                        aliquid
-                                        tenetur explicabo. In, dolorum, ex quia consequuntur culpa odit officiis non
-                                        maiores
-                                        inventore veniam consequatur unde animi, voluptatem mollitia.
+                                        aliquid tenetur explicabo. In, dolorum, ex quia consequuntur culpa odit officiis
+                                        non maiores inventore veniam consequatur unde animi, voluptatem mollitia.
                                     </p>
                                 </div>
                             </li>
@@ -133,10 +127,8 @@
                                     </div>
                                     <p class="mt-2 text-gray-500 mx-8 ">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magni
-                                        aliquid
-                                        tenetur explicabo. In, dolorum, ex quia consequuntur culpa odit officiis non
-                                        maiores
-                                        inventore veniam consequatur unde animi, voluptatem mollitia.
+                                        aliquid tenetur explicabo. In, dolorum, ex quia consequuntur culpa odit officiis
+                                        non maiores inventore veniam consequatur unde animi, voluptatem mollitia.
                                     </p>
                                 </div>
                             </li>
@@ -247,7 +239,8 @@
 </div>
 
 <!-- project -->
-<div class="bg-no-repeat bg-bottom py-32 bg-cover h-full" style="background-image: url('./public/images/bgProject.png')">
+<div class="bg-no-repeat bg-bottom py-32 bg-cover h-full"
+    style="background-image: url('./public/images/bgProject.png')">
     <section class="container mx-auto px-40">
         <div class="flex items-center">
             <div class="text-left w-1/2 text-white">
@@ -295,15 +288,29 @@
         </div>
 
         <!-- =============================================================== -->
-
-        <?php include_once('components/home/slideProject.php') ?>
-
+            <!-- Tin tức, nổi bật -->
+            <?php include_once('components/home/slideProject.php') ?>
         <!-- =============================================================== -->
 
     </section>
 
 </div>
-<?php include_once('components/home/news.php') ?>
+<!-- =============================================================== -->
+    <!-- Tin tức, nổi bật -->
+    <?php include_once('components/home/news.php') ?>
+<!-- =============================================================== -->
+
+<!-- =============================================================== -->
+    <!-- Đối tác -->
+    <?php include_once('components/home/partners.php') ?>
+<!-- =============================================================== -->
+
+<!-- =============================================================== -->
+    <!-- footer -->
+    <?php include_once('components/footer.php') ?>
+<!-- =============================================================== -->
+
+
 <script>
 // Tự động chuyển đổi slide sau mỗi 2 giây
 setInterval(function() {

@@ -59,7 +59,13 @@
  <body>
      <!-- Initialize Swiper -->
      <script>
-     var swiper = new Swiper(".mySwiperBanner", {});
+     var swiper = new Swiper(".mySwiperBanner", {
+         autoplay: {
+             delay: 2500,
+             disableOnInteraction: false,
+         },
+         loop: true,
+     });
      </script>
  </body>
 

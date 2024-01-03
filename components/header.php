@@ -20,6 +20,11 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    </style>
 </head>
 
 <body>
@@ -36,7 +41,7 @@
                     <!-- Danh mục -->
                     <ul class="flex">
                         <li class="ml-12"><a href="" class="text-[#1c2c67] font-bold">TRANG CHỦ</a></li>
-                        <li class="ml-12"><a href="#aboutCompany" class=" hover:text-[#1c2c67]">GIỚI THIỆU</a></li>
+                        <li class="ml-12"><a href="gioiThieu.php" class=" hover:text-[#1c2c67]">GIỚI THIỆU</a></li>
                         <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">DỰ ÁN</a></li>
                         <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">TRUYỀN THÔNG</a></li>
                         <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">CỔ ĐÔNG</a></li>
