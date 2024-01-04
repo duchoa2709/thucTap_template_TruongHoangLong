@@ -6,7 +6,7 @@
 <div class="footer">
     <section class="container mx-auto px-40 pt-20">
         <div class="flex border-b pb-10">
-            <div class="w-1/2">
+            <div class="w-1/2 w-full">
                 <p class="text-white text-4xl font-bold">
                     Đăng kí nhận bảng tin
                 </p>

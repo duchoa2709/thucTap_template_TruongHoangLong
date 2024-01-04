@@ -10,11 +10,11 @@
 
     <!-- Demo styles -->
     <style>
-    .bg-initiator {
+    .bg-initiator .bg-initiator {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.5970763305322129) 0%, rgba(245, 246, 252, 0.7959558823529411) 50%, rgba(227, 231, 246, 1) 100%);
     }
 
-    .swiper-slide {
+    .bg-initiator .swiper-slide {
         text-align: left;
         font-size: 18px;
         display: flex;
@@ -23,22 +23,22 @@
         height: 100%;
     }
 
-    .swiper-slide img {
+    .bg-initiator .swiper-slide img {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .swiper-slide:nth-child(odd) {
+    .bg-initiator .swiper-slide:nth-child(odd) {
         margin-top: 50px;
     }
 
-    .apparatus {
+    .bg-initiator .apparatus {
         position: relative;
     }
 
-    .apparatus .swiper-button-next:after {
+    .bg-initiator .apparatus .swiper-button-next:after {
         content: url('./public/images/gioithieu/Arrow.png');
         position: absolute;
         top: 50%;
@@ -54,7 +54,7 @@
         cursor: pointer;
     }
 
-    .apparatus .swiper-button-prev:after {
+    .bg-initiator .apparatus .swiper-button-prev:after {
         content: url('./public/images/gioithieu/Arrow.png');
         position: absolute;
         top: 50%;
@@ -72,11 +72,11 @@
         display: flex;
     }
 
-    .title-apparatus {
+    .bg-initiator .title-apparatus {
         position: relative;
     }
 
-    .title-apparatus::before {
+    .bg-initiator .title-apparatus::before {
         content: url('./public/images/gioithieu/apparatus.png');
         position: absolute;
         top: 0;
@@ -86,11 +86,11 @@
         height: 100%;
     }
 
-    .textbg-initiator {
+    .bg-initiator .textbg-initiator {
         position: relative;
     }
 
-    .textbg-initiator::before {
+    .bg-initiator .textbg-initiator::before {
         position: absolute;
         content: url('./public/images/gioithieu/initiator.png');
         width: 100%;
@@ -99,11 +99,11 @@
         left: 10px;
     }
 
-    .content-initiator .short-description-initiator {
+    .bg-initiator .content-initiator .short-description-initiator {
         position: relative;
     }
 
-    .content-initiator .short-description-initiator::before {
+    .bg-initiator .content-initiator .short-description-initiator::before {
         position: absolute;
         content: url('./public/images/gioithieu/“.png');
         width: 100%;
@@ -111,24 +111,12 @@
         top: 30px;
         left: -80px;
     }
-
-    .polygon-right {
-        position: relative;
-    }
-
-    .polygon-right::before {
-        content: url('./public/images/gioithieu/polygonright.png');
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(458%, -35%);
-    }
     </style>
 </head>
 
 <body>
     <div class="bg-initiator">
-        <div class="container mx-auto px-40 py-96">
+        <div class="container mx-auto px-40 py-60">
             <section class="initiator pb-52">
                 <div class="flex polygon-right">
                     <div class="w-1/2">
