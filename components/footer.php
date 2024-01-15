@@ -14,7 +14,7 @@
                     Nhận thông tin mới nhất từ Trương Hoàng Long
                 </p>
             </div>
-            <form action="" class="w-1/2 border-2 border-white px-5 py-3 rounded-full w-full flex">
+            <form action="" class="w-1/2 h-[5rem] border-2 border-white px-5 py-3 rounded-full w-full flex items-center">
                 <input type="email" placeholder="Nhập địa chỉ email của bạn"
                     class="w-full bg-transparent text-white pl-5 focus-visible:outline-none">
                 <button>
