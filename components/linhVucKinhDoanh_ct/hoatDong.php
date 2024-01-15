@@ -4,7 +4,7 @@
             <div class="relative">
                 <img src="./public/images/linhVucKinhDoanh_ct/album.png" alt="" class="absolute top-[7px] left-[26rem]">
                 <p class="text-[#666666] text-xl">
-                    TRƯƠNG HOÀNG LONG
+                    HOẠT ĐỘNG
                 </p>
                 <p class="text-[#1B2C65] leading-8 text-5xl mt-4 mb-8 font-light">
                     THƯ VIỆN
@@ -68,7 +68,7 @@
     content: 'prev';
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 19px 20px;
+    padding: 19px 25px;
     font-size: 18px;
     font-weight: 700;
     margin-left: 25rem;
@@ -78,7 +78,7 @@
     content: 'next';
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 19px 20px;
+    padding: 19px 25px;
     font-size: 18px;
     font-weight: 700;
     margin-right: 25rem;
