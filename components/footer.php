@@ -3,9 +3,18 @@
     background-color: #1b2c65;
 }
 </style>
+
+<!-- <iframe allowfullscreen
+    src="https://www.youtube.com/embed/2stngMhLAhQ?si=dcwXQ6jghWj8fcx0?feature=oembed&amp;autoplay=1&amp;wmode=opaque&amp;loop=1&amp;controls=1&amp;mute=1&amp;rel=0&amp;modestbranding=0&amp;showinfo=0&amp;color=white"
+    style="width:100%;" loading="lazy"></iframe> -->
+
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.609101145321!2d106.6966463!3d10.7879703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1705313425953!5m2!1svi!2s"
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
 <div class="footer">
     <section class="container mx-auto px-40 pt-20">
-        <div class="flex border-b pb-10">
+        <div class="flex border-b pb-10 items-center">
             <div class="w-1/2 w-full">
                 <p class="text-white text-4xl font-bold">
                     Đăng kí nhận bảng tin
@@ -14,7 +23,8 @@
                     Nhận thông tin mới nhất từ Trương Hoàng Long
                 </p>
             </div>
-            <form action="" class="w-1/2 h-[5rem] border-2 border-white px-5 py-3 rounded-full w-full flex items-center">
+            <form action=""
+                class="w-1/2 h-[5rem] border-2 border-white px-5 py-3 rounded-full w-full flex items-center">
                 <input type="email" placeholder="Nhập địa chỉ email của bạn"
                     class="w-full bg-transparent text-white pl-5 focus-visible:outline-none">
                 <button>
@@ -129,3 +139,7 @@
 </div>
 
 <script src="./public/js/jsIndex.js"></script>
+
+<?php 
+    // include "test.php" 
+?>
