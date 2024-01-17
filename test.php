@@ -1,225 +1,35 @@
-<div id="content" class="blog-wrapper blog-single page-wrapper"></div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
 
-<style type="text/css">
-.tet_left img,
-.tet_right img {
-    width: 100%;
-    height: auto;
-}
-
-.tet_left,
-.tet_right {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    width: 191px;
-    pointer-events: none;
-}
-
-.tet_right {
-    left: auto;
-    right: 0;
-    width: 191px;
-}
-
-.tet_bottom {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 99;
-    width: 100%;
-    height: 120px;
-    background: url("https://maychusaigon.vn/wp-content/plugins/devvn-tet-holiday/images/bottom-2.png") repeat-x;
-    background-size: auto 100% !important;
-    pointer-events: none;
-}
-
-@media (max-width: 1331px) {
-
-    .tet_left,
-    .tet_right,
-    .tet_bottom {
-        display: none !important;
-    }
+div.absolute {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
 }
 </style>
-<div class="tet_left"><img src="https://maychusaigon.vn/wp-content/plugins/devvn-tet-holiday/images/left-1.png"
-        alt="" /></div>
-<div class="tet_right"><img src="https://maychusaigon.vn/wp-content/plugins/devvn-tet-holiday/images/right-1.png"
-        alt="" /></div>
-<div class="tet_bottom">
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
 </div>
-<script type="text/javascript">
-var boddie, bits = 90,
-    speed = 30,
-    bangs = 5,
-    colours = new Array("#03f", "#f03", "#fff", "#f7efa1", "#0cf", "#f93", "#f0c", "#fff"),
-    bangheight = new Array,
-    intensity = new Array,
-    colour = new Array,
-    Xpos = new Array,
-    Ypos = new Array,
-    dX = new Array,
-    dY = new Array,
-    stars = new Array,
-    decay = new Array,
-    swide = 800,
-    shigh = 600;
 
-function write_fire(e) {
-    var t;
-    for (stars[e + "r"] = createDiv("|", 12), boddie.appendChild(stars[e + "r"]), t = bits * e; t < bits + bits *
-        e; t++) stars[t] = createDiv("*", 13), boddie.appendChild(stars[t])
-}
+</body>
+</html>
 
-function createDiv(e, t) {
-    var o = document.createElement("div");
-    return o.style.font = t + "px monospace", o.style.position = "absolute", o.style.backgroundColor =
-        "transparent", o.appendChild(document.createTextNode(e)), o
-}
 
-function launch(e) {
-    colour[e] = Math.floor(Math.random() * colours.length), Xpos[e + "r"] = .5 * swide, Ypos[e + "r"] = shigh - 5,
-        bangheight[e] = Math.round((.5 + Math.random()) * shigh * .4), dX[e + "r"] = (Math.random() - .5) * swide /
-        bangheight[e], 1.25 < dX[e + "r"] ? stars[e + "r"].firstChild.nodeValue = "/" : dX[e + "r"] < -1.25 ? stars[
-            e + "r"].firstChild.nodeValue = "\\" : stars[e + "r"].firstChild.nodeValue = "|", stars[e + "r"].style
-        .color = colours[colour[e]]
-}
-
-function bang(e) {
-    for (var t, o = 0, n = bits * e; n < bits + bits * e; n++)(t = stars[n].style).left = Xpos[n] + "px", t.top =
-        Ypos[n] + "px", decay[n] ? decay[n]-- : o++, 15 == decay[n] ? t.fontSize = "10px" : 7 == decay[n] ? t
-        .fontSize = "2px" : 1 == decay[n] && (t.visibility = "hidden"), Xpos[n] += dX[n], Ypos[n] += dY[n] += 1.25 /
-        intensity[e];
-    o != bits && setTimeout("bang(" + e + ")", speed)
-}
-
-function stepthrough(e) {
-    var t, o, n, i = Xpos[e + "r"],
-        d = Ypos[e + "r"];
-    if (Xpos[e + "r"] += dX[e + "r"], Ypos[e + "r"] -= 4, Ypos[e + "r"] < bangheight[e]) {
-        for (o = Math.floor(3 * Math.random() * colours.length), intensity[e] = 5 + 4 * Math.random(), t = e *
-            bits; t < bits + bits * e; t++) Xpos[t] = Xpos[e + "r"], Ypos[t] = Ypos[e + "r"], dY[t] = (Math
-                .random() - .5) * intensity[e], dX[t] = (Math.random() - .5) * (intensity[e] - Math.abs(dY[t])) * 1.25,
-            decay[t] = 25 + Math.floor(25 * Math.random()), n = stars[t], o < colours.length ? n.style.color =
-            colours[t % 2 ? colour[e] : o] : o < 2 * colours.length ? n.style.color = colours[colour[e]] : n.style
-            .color = colours[t % colours.length], n.style.fontSize = "20px", n.style.visibility = "visible";
-        bang(e), launch(e)
-    }
-    stars[e + "r"].style.left = i + "px", stars[e + "r"].style.top = d + "px"
-}
-
-function set_width() {
-    var e = 999999,
-        t = 999999;
-    document.documentElement && document.documentElement.clientWidth && (0 < document.documentElement.clientWidth &&
-        (e = document.documentElement.clientWidth), 0 < document.documentElement.clientHeight && (t = document
-            .documentElement.clientHeight)), void 0 !== self.innerWidth && self.innerWidth && (0 < self
-        .innerWidth && self.innerWidth < e && (e = self.innerWidth), 0 < self.innerHeight && self.innerHeight <
-        t && (t = self.innerHeight)), document.body.clientWidth && (0 < document.body.clientWidth && document
-        .body.clientWidth < e && (e = document.body.clientWidth), 0 < document.body.clientHeight && document
-        .body.clientHeight < t && (t = document.body.clientHeight)), 999999 != e && 999999 != t || (e = 800, t =
-        600), swide = e, shigh = t
-}
-window.onload = function() {
-    var e;
-    if (document.getElementById)
-        for ((boddie = document.createElement("div")).style.position = "fixed", boddie.style.bottom = "0px",
-            boddie.style.top = "0px", boddie.style.overflow = "visible", boddie.classList.add("tet_firework"),
-            boddie.style.width = "0", boddie.style.height = "0", boddie.style.backgroundColor = "transparent",
-            boddie.style.pointerEvents = "none", document.body.appendChild(boddie), set_width(), e = 0; e <
-            bangs; e++) write_fire(e), launch(e), setInterval("stepthrough(" + e + ")", speed)
-}, window.onresize = set_width;
-</script>
-<script type="text/javascript">
-var no = 20;
-if (matchMedia('only screen and (max-width: 767px)').matches) {
-    no = 10
-}
-let hoaArgs = [
-    [
-        'https://maychusaigon.vn/wp-content/plugins/devvn-tet-holiday/images/hoadao.png',
-        15
-    ],
-    [
-        'https://maychusaigon.vn/wp-content/plugins/devvn-tet-holiday/images/hoamai.png',
-        30
-    ],
-];
-let img_url = 'https://maychusaigon.vn/wp-content/plugins/devvn-tet-holiday/images/hoamai.png';
-let imgW = 30;
-var hidesnowtime = 0;
-var color_snow = '#fff';
-var snowdistance = 'windowheight'; // windowheight or pageheight;
-var ie4up = (document.all) ? 1 : 0;
-var ns6up = (document.getElementById && !document.all) ? 1 : 0;
-
-function iecompattest() {
-    return (document.compatMode && document.compatMode != 'BackCompat') ? document.documentElement : document.body
-}
-
-var dx, xp, yp;
-var am, stx, sty;
-var i, doc_width = 800,
-    doc_height = 600;
-if (ns6up) {
-    doc_width = self.innerWidth;
-    doc_height = self.innerHeight
-} else if (ie4up) {
-    doc_width = iecompattest().clientWidth;
-    doc_height = iecompattest().clientHeight
-}
-dx = new Array();
-xp = new Array();
-yp = new Array();
-am = new Array();
-stx = new Array();
-sty = new Array();
-for (i = 0; i < no; ++i) {
-    dx[i] = 0;
-    xp[i] = Math.random() * (doc_width - 50);
-    yp[i] = Math.random() * doc_height;
-    am[i] = Math.random() * 20;
-    stx[i] = 0.02 + Math.random() / 10;
-    sty[i] = 0.7 + Math.random();
-    if (ie4up || ns6up) {
-        document.write('<div id="dot' + i + '" style="POSITION:fixed;Z-INDEX:' + (99 + i) +
-            ';VISIBILITY:visible;TOP:15px;LEFT:15px;pointer-events: none;width:' + imgW +
-            'px"><span style="font-size:18px;color:' + color_snow + '"><img src="' + img_url +
-            '" alt=""></span></div>');
-    }
-}
-
-function snowIE_NS6() {
-    doc_width = ns6up ? window.innerWidth - 10 : iecompattest().clientWidth - 10;
-    doc_height = (window.innerHeight && snowdistance == 'windowheight') ? window.innerHeight : (ie4up &&
-        snowdistance == 'windowheight') ? iecompattest().clientHeight : (ie4up && !window.opera &&
-        snowdistance == 'pageheight') ? iecompattest().scrollHeight : iecompattest().offsetHeight;
-    for (i = 0; i < no; ++i) {
-        yp[i] += sty[i];
-        if (yp[i] > doc_height - 50) {
-            xp[i] = Math.random() * (doc_width - am[i] - 30);
-            yp[i] = 0;
-            stx[i] = 0.02 + Math.random() / 10;
-            sty[i] = 0.7 + Math.random()
-        }
-        dx[i] += stx[i];
-        document.getElementById('dot' + i).style.top = yp[i] + 'px';
-        document.getElementById('dot' + i).style.left = xp[i] + am[i] * Math.sin(dx[i]) + 'px'
-    }
-    snowtimer = setTimeout('snowIE_NS6()', 10)
-}
-
-function hidesnow() {
-    if (window.snowtimer) {
-        clearTimeout(snowtimer)
-    }
-    for (i = 0; i < no; i++) document.getElementById('dot' + i).style.visibility = 'hidden'
-}
-
-if (ie4up || ns6up) {
-    snowIE_NS6();
-    if (hidesnowtime > 0) setTimeout('hidesnow()', hidesnowtime * 1000)
-}
-</script>
