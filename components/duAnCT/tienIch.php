@@ -18,6 +18,7 @@
 .test .swiper {
     width: 100%;
     height: 677px;
+    position: static;
 }
 
 .test .swiper-slide {
@@ -65,12 +66,12 @@
 }
 
 .showDialog {
-    opacity: 1;
+    opacity: 0;
     transition: opacity 0.5s ease-in-out;
     position: absolute;
     bottom: -74px;
-    /* left: 160px; */
-    left: 600px;
+    left: 160px;
+    /* left: 600px; */
     width: 448px;
     height: 248px;
 }
@@ -103,24 +104,24 @@
     <div class="swiper mySwiper static">
         <div class="swiper-wrapper static">
             <div class="swiper-slide static">
-                <div class="img-slide-tienIch">
-                    <img src="./public/images/linhVucKinhDoanh_ct/Rectangle 131.png" alt="">
-                </div>
-                <!-- <div class="p-10 bg-[#142D65] showDialog text-left absolute">
+                <div class="p-10 bg-[#142D65] showDialog text-left absolute">
                     <p class="text-white mt-3 text-3xl font-extrabold pb-5">
-                        KHU THƯƠNG MẠI
+                        aaaaaaaa
                     </p>
                     <p class="text-white mt-2 leading-8 text-white text-sm font-normal">
                         Dự án sở hữu tuyến phố thương mại mở ngoài trời sầm uất, nhộn nhịp, đầy sắc màu, được bố trí
                         giữa lòng dự án.
                     </p>
-                </div> -->
+                </div>
+                <div class="img-slide-tienIch">
+                    <img src="./public/images/linhVucKinhDoanh_ct/Rectangle 131.png" alt="">
+                </div>
             </div>
             <div class="swiper-slide">
                 <div class="img-slide-tienIch">
                     <img src="./public/images/linhVucKinhDoanh_ct/Rectangle 134.png" alt="">
                 </div>
-                <!-- <div class="p-10 bg-[#142D65] showDialog text-left absolute">
+                <div class="p-10 bg-[#142D65] showDialog text-left absolute">
                     <p class="text-white mt-3 text-3xl font-extrabold pb-5">
                         KHU THƯƠNG MẠI
                     </p>
@@ -128,13 +129,13 @@
                         Dự án sở hữu tuyến phố thương mại mở ngoài trời sầm uất, nhộn nhịp, đầy sắc màu, được bố trí
                         giữa lòng dự án.
                     </p>
-                </div> -->
+                </div>
             </div>
             <div class="swiper-slide">
                 <div class="img-slide-tienIch">
                     <img src="./public/images/linhVucKinhDoanh_ct/Rectangle 133.png" alt="">
                 </div>
-                <!-- <div class="p-10 bg-[#142D65] showDialog text-left absolute">
+                <div class="p-10 bg-[#142D65] showDialog text-left absolute">
                     <p class="text-white mt-3 text-3xl font-extrabold pb-5">
                         KHU THƯƠNG MẠI
                     </p>
@@ -142,13 +143,13 @@
                         Dự án sở hữu tuyến phố thương mại mở ngoài trời sầm uất, nhộn nhịp, đầy sắc màu, được bố trí
                         giữa lòng dự án.
                     </p>
-                </div> -->
+                </div>
             </div>
             <div class="swiper-slide">
                 <div class="img-slide-tienIch">
                     <img src="./public/images/linhVucKinhDoanh_ct/Rectangle 133.png" alt="">
                 </div>
-                <!-- <div class="p-10 bg-[#142D65] showDialog text-left absolute">
+                <div class="p-10 bg-[#142D65] showDialog text-left absolute">
                     <p class="text-white mt-3 text-3xl font-extrabold pb-5">
                         KHU THƯƠNG MẠI
                     </p>
@@ -156,13 +157,13 @@
                         Dự án sở hữu tuyến phố thương mại mở ngoài trời sầm uất, nhộn nhịp, đầy sắc màu, được bố trí
                         giữa lòng dự án.
                     </p>
-                </div> -->
+                </div>
             </div>
             <div class="swiper-slide">
                 <div class="img-slide-tienIch">
                     <img src="./public/images/linhVucKinhDoanh_ct/Rectangle 133.png" alt="">
                 </div>
-                <!-- <div class="p-10 bg-[#142D65] showDialog text-left absolute">
+                <div class="p-10 bg-[#142D65] showDialog text-left absolute">
                     <p class="text-white mt-3 text-3xl font-extrabold pb-5">
                         KHU THƯƠNG MẠI
                     </p>
@@ -170,11 +171,11 @@
                         Dự án sở hữu tuyến phố thương mại mở ngoài trời sầm uất, nhộn nhịp, đầy sắc màu, được bố trí
                         giữa lòng dự án.
                     </p>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
-    <div class="p-10 bg-[#142D65] showDialog text-left absolute">
+    <!-- <div class="p-10 bg-[#142D65] showDialog text-left absolute">
         <p class="text-white mt-3 text-3xl font-extrabold pb-5">
             KHU THƯƠNG MẠI
         </p>
@@ -182,7 +183,7 @@
             Dự án sở hữu tuyến phố thương mại mở ngoài trời sầm uất, nhộn nhịp, đầy sắc màu, được bố trí
             giữa lòng dự án.
         </p>
-    </div>
+    </div> -->
 </div>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
