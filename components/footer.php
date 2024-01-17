@@ -141,5 +141,5 @@
 <script src="./public/js/jsIndex.js"></script>
 
 <?php 
-    // include "test.php" 
+    // include('./components/hieuUngTet.php');
 ?>

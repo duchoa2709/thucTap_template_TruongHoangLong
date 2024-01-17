@@ -21,7 +21,7 @@
     <div class="text-center">
         <div class="gioiThieuTongQuan">
             <p class="text-[#666666] text-xl">GIỚI THIỆU TỔNG QUAN</p>
-            <p class="text-[#1B2C65] leading-8 text-5xl mt-4 mb-8">KHU PHỨC HỢP <span class="font-bold">MARINA
+            <p class="text-[#1B2C65] leading-8 text-5xl mt-4 mb-8 font-light">KHU PHỨC HỢP <span class="font-bold">MARINA
                     CITY</span>
             </p>
         </div>
