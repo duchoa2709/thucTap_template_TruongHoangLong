@@ -62,120 +62,121 @@
             </div>
         </div>
 
+        <div class="py-32">
+            <div class="text-4xl font-bold text-center text-[#1b2c65] my-10">
+                Có thể bạn quan tâm
+            </div>
 
-        <div class="text-4xl font-bold text-center text-[#1b2c65] my-10">
-            Có thể bạn quan tâm
-        </div>
+            <style>
+            .swiperCacThongTin {
+                width: 100%;
+                height: 348px;
+            }
 
-        <style>
-        .swiperCacThongTin {
-            width: 100%;
-            height: 348px;
-        }
+            .swiper-button-prev:after,
+            .swiper-rtl .swiper-button-next:after {
+                content: url("public/images/duAnCT/arrow_forward_ios.png");
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                left: -8rem;
+            }
 
-        .swiper-button-prev:after,
-        .swiper-rtl .swiper-button-next:after {
-            content: url("public/images/duAnCT/arrow_forward_ios.png");
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            left: -8rem;
-        }
-
-        .swiper-button-next:after,
-        .swiper-rtl .swiper-button-prev:after {
-            content: url("public/images/duAnCT/arrow_forward_ios.png");
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            right: -8rem;
-            transform: rotate(180deg);
-        }
-        </style>
-        </head>
-        <div class="cacThongTin relative">
-            <!-- Swiper -->
-            <div class="swiper swiperCacThongTin">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="    relative h-[348px]">
-                            <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
-                            <div
-                                class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
-                                <div class="text-zinc-800 font-normal text-base mr-10">
-                                    KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+            .swiper-button-next:after,
+            .swiper-rtl .swiper-button-prev:after {
+                content: url("public/images/duAnCT/arrow_forward_ios.png");
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                right: -8rem;
+                transform: rotate(180deg);
+            }
+            </style>
+            </head>
+            <div class="cacThongTin relative">
+                <!-- Swiper -->
+                <div class="swiper swiperCacThongTin">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="    relative h-[348px]">
+                                <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
+                                <div
+                                    class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
+                                    <div class="text-zinc-800 font-normal text-base mr-10">
+                                        KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                                    </div>
+                                    <a href="#"
+                                        class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
+                                        Xem chi tiết
+                                    </a>
                                 </div>
-                                <a href="#"
-                                    class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
-                                    Xem chi tiết
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="relative h-[348px]">
-                            <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
-                            <div
-                                class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
-                                <div class="text-zinc-800 font-normal text-base mr-10">
-                                    KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                        <div class="swiper-slide">
+                            <div class="relative h-[348px]">
+                                <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
+                                <div
+                                    class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
+                                    <div class="text-zinc-800 font-normal text-base mr-10">
+                                        KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                                    </div>
+                                    <a href="#"
+                                        class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
+                                        Xem chi tiết
+                                    </a>
                                 </div>
-                                <a href="#"
-                                    class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
-                                    Xem chi tiết
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="    relative h-[348px]">
-                            <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
-                            <div
-                                class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
-                                <div class="text-zinc-800 font-normal text-base mr-10">
-                                    KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                        <div class="swiper-slide">
+                            <div class="    relative h-[348px]">
+                                <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
+                                <div
+                                    class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
+                                    <div class="text-zinc-800 font-normal text-base mr-10">
+                                        KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                                    </div>
+                                    <a href="#"
+                                        class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
+                                        Xem chi tiết
+                                    </a>
                                 </div>
-                                <a href="#"
-                                    class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
-                                    Xem chi tiết
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="    relative h-[348px]">
-                            <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
-                            <div
-                                class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
-                                <div class="text-zinc-800 font-normal text-base mr-10">
-                                    KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                        <div class="swiper-slide">
+                            <div class="    relative h-[348px]">
+                                <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
+                                <div
+                                    class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
+                                    <div class="text-zinc-800 font-normal text-base mr-10">
+                                        KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                                    </div>
+                                    <a href="#"
+                                        class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
+                                        Xem chi tiết
+                                    </a>
                                 </div>
-                                <a href="#"
-                                    class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
-                                    Xem chi tiết
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="relative h-[348px]">
-                            <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
-                            <div
-                                class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
-                                <div class="text-zinc-800 font-normal text-base mr-10">
-                                    KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                        <div class="swiper-slide">
+                            <div class="relative h-[348px]">
+                                <img class="w-[386px] h-[243px] z-0" src="./public/images/duAn/1.png" />
+                                <div
+                                    class="w-[352px] h-[130px] z-10 bg-white shadow title-items absolute bottom-0 left-[18px] py-6 px-8 m-auto border-b-4 border-red-500">
+                                    <div class="text-zinc-800 font-normal text-base mr-10">
+                                        KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
+                                    </div>
+                                    <a href="#"
+                                        class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
+                                        Xem chi tiết
+                                    </a>
                                 </div>
-                                <a href="#"
-                                    class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
-                                    Xem chi tiết
-                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
     </div>
 </div>

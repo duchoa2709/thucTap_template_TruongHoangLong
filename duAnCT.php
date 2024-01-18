@@ -1,29 +1,33 @@
 <!-- =============================================================== -->
-    <!-- Header navbar -->
-    <?php include_once('components/header.php') ?>
+<!-- Header navbar -->
+<?php include_once('components/header.php') ?>
 <!-- =============================================================== -->
 
 <!-- =============================================================== -->
-    <!-- banner -->
-    <?php include_once('components/duAnCT/banner.php') ?>
+<!-- banner -->
+<?php include_once('components/duAnCT/banner.php') ?>
 <!-- =============================================================== -->
 
 <!-- =============================================================== -->
-    <!-- gioiThieuTongQuan -->
-    <?php include_once('components/duAnCT/gioiThieuTongQuan.php') ?>
+<!-- gioiThieuTongQuan -->
+<?php include_once('components/duAnCT/gioiThieuTongQuan.php') ?>
 <!-- =============================================================== -->
 
 <!-- =============================================================== -->
-    <!-- tienIch -->
-    <?php include_once('components/duAnCT/tienIch.php') ?>
+<!-- tienIch -->
+<?php include_once('components/duAnCT/tienIch.php') ?>
 <!-- =============================================================== -->
 
 <!-- =============================================================== -->
-    <!-- cacThongTin -->
-    <?php include_once('components/duAnCT/cacThongTin.php') ?>
+<!-- cacThongTin -->
+<?php include_once('components/duAnCT/cacThongTin.php') ?>
 <!-- =============================================================== -->
 
 <!-- =============================================================== -->
-    <!-- footer -->
-    <?php include_once('components/footer.php') ?>
+<!-- contactForm7-lienHe -->
+<?php include_once('components/duAnCT/contactForm7-lienHe.php') ?>
+
+<!-- =============================================================== -->
+<!-- footer -->
+<?php include_once('components/footer.php') ?>
 <!-- =============================================================== -->
