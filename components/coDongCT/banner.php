@@ -1,7 +1,5 @@
 <style>
-
 .banner__content a {
-    color: #fff;
     font-size: 16px;
     font-weight: 500;
 }
@@ -18,7 +16,7 @@
 }
 
 .banner_background {
-    background-image: url('./public/images/gioithieu/banner.png');
+    background-image: url('./public/images/coDongCT/banner.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,15 +39,19 @@
 
 <section>
     <div class="banner_background">
-        <div class="container mx-auto px-40 z-50">
+        <div class="container mx-auto px-40 z-10">
             <div class="row">
                 <div class="col-12">
                     <div class="banner__content pb-16">
-                        <h1 class="font-extrabold text-5xl text-white">GIỚI THIỆU</h1>
+                        <h1 class="font-extrabold text-5xl text-white">CỔ ĐÔNG</h1>
                         <div class="flex mt-7 text-zinc-300 font-semibold">
                             <a href="#" class="">Trang chủ</a>
                             <span class="mx-2">></span>
-                            <a href="#">Giới thiệu</a>
+                            <a href="#">Cổ Đông</a>
+                            <span class="mx-2">></span>
+                            <a href="#">Công bố thông tin</a>
+                            <span class="mx-2">></span>
+                            <a href="#">Thông báo về ngày đăng ký cuối cùng chốt quyền nhận cổ tức</a>
                         </div>
                     </div>
                 </div>

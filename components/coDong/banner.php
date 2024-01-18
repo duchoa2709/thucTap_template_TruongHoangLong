@@ -1,6 +1,5 @@
 <style>
 .banner__content a {
-    color: #fff;
     font-size: 16px;
     font-weight: 500;
 }
@@ -45,7 +44,7 @@
                 <div class="col-12">
                     <div class="banner__content pb-16">
                         <h1 class="font-extrabold text-5xl text-white">CỔ ĐÔNG</h1>
-                        <div class="flex mt-7 text-[#ff0000]">
+                        <div class="flex mt-7 text-zinc-300 font-semibold">
                             <a href="#" class="">Trang chủ</a>
                             <span class="mx-2">></span>
                             <a href="#">Cổ Đông</a>
