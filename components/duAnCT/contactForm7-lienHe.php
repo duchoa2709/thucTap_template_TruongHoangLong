@@ -47,9 +47,9 @@
                         <input class="w-full border border-gray-300 py-3 px-5" type="text"
                             placeholder="Nhập lời nhắn của bạn" />
                     </div>
-                    <div class="text-center">
-                        <button class="bg-[#cf4735] text-white py-3 px-10 mt-5 flex">
-                            <span>
+                    <div class="text-center flex justify-center mt-10">
+                        <button class="bg-[#cf4735] text-white py-3 px-10 flex">
+                            <span class="mr-5">
                                 Gửi yêu cầu
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -65,13 +65,14 @@
                                 </g>
                                 <g transform="matrix(53.32 0 0 45 540 540)">
                                     <path
-                                        style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
+                                        style="stroke: rgb(255,255,255); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"
                                         transform=" translate(-12, -12)"
                                         d="M 17.25 8.25 L 21 12 M 21 12 L 17.25 15.75 M 21 12 L 3 12"
                                         stroke-linecap="round" />
                                 </g>
                             </svg>
                         </button>
+                    </div>
                 </form>
             </div>
         </div>
