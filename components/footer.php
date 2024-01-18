@@ -124,9 +124,18 @@
     <!-- copyright -->
     <section class="copyright bg-white">
         <div class="container mx-auto px-40 py-2">
-            <div class="flex justify-between">
-                <div class="text-[#333333]">
-                    Copyright © 2022 Truong Hoang Long Design by Thuy Thu
+            <div class="flex justify-between items-center">
+                <div class="text-[#333333] flex items-center gap-5">
+                    Copyright © <?php echo date("Y"); ?> Truong Hoang Long Design by Duc Hoa
+                    <a href="https://www.facebook.com/id3103200327092003" class="flex items-center pl-2">
+                        <i class="fab fa-facebook-f text-[#333333] text-xs"></i>
+                    </a>
+                    <a href="" class="flex items-center pl-2">
+                        <i class="fab fa-youtube text-[#333333] text-xs"></i>
+                    </a>
+                    <a href="" class="flex items-center pl-2">
+                        <i class="fab fa-instagram text-[#333333] text-xs"></i>
+                    </a>
                 </div>
                 <div class="text-[#333333] gap-6 flex">
                     <a href="">Điều khoản sử dụng</a>
