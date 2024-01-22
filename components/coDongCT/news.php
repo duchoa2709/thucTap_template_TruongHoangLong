@@ -1,6 +1,6 @@
 <div class="container mx-auto px-40 z-50 mt-40 mb-52">
-    <div class="flex gap-36">
-        <div class="w-4/5">
+    <div class="flex gap-20">
+        <div class="w-9/12">
             <div class="text-blue-950 text-[45px] font-extrabold uppercase leading-[60px] border-b-2 pb-14">
                 THÔNG BÁO VỀ NGÀY ĐĂNG KÝ CUỐI CÙNG CHỐT QUYỀN NHẬN CỔ TỨC
             </div>
@@ -86,35 +86,46 @@
                 </div>
                 <!-- tag -->
                 <div class="mt-10 flex">
-                    <div class="text-zinc-800 mr-10">
+                    <div class="text-zinc-800 mr-5">
                         Thẻ:
                     </div>
-                    <div class="flex gap-3 text-stone-500">
-                        <a href="#">
+                    <div>
+                        <a href="#" class="text-blue-950">
                             Trương Hoàng Long
                         </a>
                         /
-                        <a href="#">
+                        <a href="#" class="text-blue-950">
                             BĐS
                         </a>
                         /
-                        <a href="#">
+                        <a href="#" class="text-blue-950">
                             Bất Động Sản
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-1/5">
+        <div class="w-3/12">
             <div class="aside-right">
-                <div class="text-blue-950 text-2xl font-bold uppercase leading-[60px] border-b-2 pb-14">
-                    Tin tức
+                <div
+                    class="text-white font-extrabold uppercase leading-[60px] border-b-2 py-2 px-3 bg-[#1B2C65] text-center">
+                    THÔNG TIN LIÊN QUAN
                 </div>
-                <div class="text-blue-950 text-2xl font-bold uppercase leading-[60px] border-b-2 pb-14">
-                    Sự kiện
-                </div>
-                <div class="text-blue-950 text-2xl font-bold uppercase leading-[60px] border-b-2 pb-14">
-                    Tài liệu
+                <div class="border-b-2 border-[#1B2C65] pb-3">
+                    <!-- tin lien quan -->
+                    <div class="mt-5 flex items-center gap-3">
+                        <img class="w-[121px] h-20" src="./public/images/coDongCT/thongTin.png" />
+                        <div >
+                            <!-- date -->
+                            <div>
+                                23, tháng 12, 2022
+                            </div>
+                            <!-- title -->
+                            <div class="text-blue-950 font-semibold mt-2">
+                                Lễ khởi công dự án khu phức hợp vịnh đầm selavia
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
