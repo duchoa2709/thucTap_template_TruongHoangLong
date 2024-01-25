@@ -1,6 +1,6 @@
 <div class="bg-[#1b2c65]">
     <div class="container h-[54px] mx-auto px-40 z-10 mb-20 ">
-        <ul class="flex items-center justify-between h-full sticky z-50">
+        <ul class="flex items-center justify-between h-full sticky z-10">
             <li
                 class="flex items-center justufy-center h-full px-10 h-full text-white hover:bg-white hover:text-[#1b2c65]">
                 Báo cáo tài chính

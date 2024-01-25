@@ -40,7 +40,7 @@
                 <div class="text-zinc-800 font-normal text-base mr-10">
                     KHU CÔNG NGHIỆP PHÚ MỸ 3, BR-VT
                 </div>
-                <a href="#" class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
+                <a href="duAnCT.php" class="text-[#1b2c65] font-bold block hover:underline hover:text-[#ff0000] mt-3">
                     Xem chi tiết
                 </a>
             </div>
