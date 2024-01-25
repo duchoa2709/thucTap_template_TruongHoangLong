@@ -70,7 +70,7 @@
                         <li class="ml-12"><a href="linhVucKinhDoanh.php" class=" hover:text-[#1c2c67]">LĨNH VỰC HOẠT
                                 ĐỘNG</a></li>
                         <li class="ml-12"><a href="coDong.php" class=" hover:text-[#1c2c67]">CỔ ĐÔNG</a></li>
-                        <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">TUYỂN DỤNG</a></li>
+                        <li class="ml-12"><a href="tuyenDung.php" class=" hover:text-[#1c2c67]">TUYỂN DỤNG</a></li>
                         <li class="ml-12"><a href="" class=" hover:text-[#1c2c67]">LIÊN HỆ</a></li>
                     </ul>
                 </div>
